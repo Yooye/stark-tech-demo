@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import * as echarts from "echarts";
 import chart from "../options/chart";
 import { RevenueType } from "../types";
-import { dataTool } from "echarts/types/src/echarts.all.js";
 type Props = {
   data: RevenueType[];
 };

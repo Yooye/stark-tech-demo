@@ -18,7 +18,7 @@ instance.interceptors.response.use(
     console.log("响应拦截器", response);
     return response;
   },
-  function (error) {
+  function () {
     console.log("响应拦截器失败拦截");
   }
 );

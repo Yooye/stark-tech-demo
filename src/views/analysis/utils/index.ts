@@ -3,9 +3,9 @@ import { RevenueType } from "../types";
 export function calculateRevenueGrowthRate(data: RevenueType[]) {
   for (let i = 0; i < data.length; i++) {
     const currentRevenue = data[i].revenue;
-    const currentDate = new Date(data[i].date);
-    const currentYear = currentDate.getFullYear();
-    const currentMonth = currentDate.getMonth() + 1;
+    // const currentDate = new Date(data[i].date);
+    // const currentYear = currentDate.getFullYear();
+    // const currentMonth = currentDate.getMonth() + 1;
 
     if (i >= 12) {
       const previousMonthData = data[i - 12];
